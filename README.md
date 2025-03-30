@@ -1,11 +1,11 @@
 # Real-time Financial Data Processing Pipeline
 
-A sophisticated real-time financial data processing pipeline that demonstrates expertise in big data processing, stream processing, and data visualization. This project showcases a production-grade system that processes real-time stock market data using modern data engineering practices and tools.
+A real-time financial data processing pipeline that performs in big data processing, stream processing, and data visualization. This project shows a production-grade system that processes real-time stock market data using modern data engineering practices and tools.
 
-## 🚀 Features
+## Features
 
 - **Real-time Data Ingestion**: Streams live stock market data from Financial Modeling Prep API
-- **Distributed Processing**: Leverages Apache Spark for scalable data processing
+- **Distributed Processing**: Uses Apache Spark for scalable data processing
 - **Message Queue**: Implements Apache Kafka for reliable data streaming
 - **Data Persistence**: Stores processed data in MySQL for historical analysis
 - **Visualization**: Real-time dashboards using Grafana
@@ -13,7 +13,7 @@ A sophisticated real-time financial data processing pipeline that demonstrates e
 - **Monitoring**: Built-in monitoring and alerting capabilities
 - **Scalability**: Designed to handle high-volume data streams
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 graph LR
@@ -32,22 +32,16 @@ graph LR
 - **MySQL**: Relational database for data persistence
 - **Grafana**: Visualization platform for real-time analytics
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Stream Processing**: Apache Kafka, Apache Spark
 - **Database**: MySQL
 - **Visualization**: Grafana
 - **Containerization**: Docker, Docker Compose
 - **Programming**: Python 3.8+
-- **API Integration**: Financial Modeling Prep API
+- **API Integration**: Financial Modeling Prep API ([get key here](https://site.financialmodelingprep.com/))
 
-## 📋 Prerequisites
-
-- Python 3.8 or higher
-- Docker and Docker Compose
-- Financial Modeling Prep API Key ([Get one here](https://site.financialmodelingprep.com/))
-
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the Repository**
    ```bash
@@ -72,15 +66,7 @@ graph LR
    docker-compose up --build
    ```
 
-## 📊 Monitoring & Visualization
-
-Access the Grafana dashboard at `http://localhost:3000` to view:
-- Real-time stock price trends
-- Trading volume analysis
-- Price change indicators
-- Custom alerts and notifications
-
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 Key configuration options in `.env`:
@@ -93,22 +79,6 @@ Key configuration options in `.env`:
 - Adjust `spark/process_data.py` for different data processing logic
 - Update `kafka/kafka_producer.py` for alternative data sources
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
-
-## 👤 Author
-
-Devraj Raguvanshi
-- GitHub: [devraj-raghuvanshi](https://github.com/devraj-raghuvanshi)
-- LinkedIn: [Your LinkedIn Profile]
-
-## 🙏 Acknowledgments
-
-- Financial Modeling Prep for providing the stock market data API
-- Apache Software Foundation for Kafka and Spark
-- Grafana Labs for the visualization platform
