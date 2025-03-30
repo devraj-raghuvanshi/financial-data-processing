@@ -1,6 +1,6 @@
 # Real-time Financial Data Processing Pipeline
 
-A real-time financial data processing pipeline that performs in big data processing, stream processing, and data visualization. This project shows a production-grade system that processes real-time stock market data using modern data engineering practices and tools.
+A real-time financial data processing pipeline that performs big data processing, stream processing, and data visualization. This project shows a production-grade system that processes real-time stock market data using modern data engineering practices and tools.
 
 ## Features
 
